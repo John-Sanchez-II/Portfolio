@@ -1,6 +1,7 @@
 import shark from "./shark-punch.gif";
 import "./App.css";
 import { useState } from "react";
+import Navbar from "./Components/Navbar";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,8 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <img src="/img/dbz.gif" alt="fusion"></img>
-      <h2>Welcome to my Site</h2>
+      <Navbar/>
       <img src={shark} alt="punch"></img>
 
       <div>

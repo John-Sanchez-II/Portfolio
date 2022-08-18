@@ -1,42 +1,20 @@
-import shark from "./shark-punch.gif";
 import "./App.css";
-import { useState } from "react";
-import Navbar from "./Components/Navbar";
+import NavBar from "./components/NavBar/NavBar";
+import LandingPage from "./components/LandingPage/LandingPage";
+import Portfolio from "./components/Portfolio/Portfolio";
+import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
 
 function App() {
-  const [count, setCount] = useState(0);
-  const [search, setSearch] = useState("");
-  const incrementCount = () => setCount(count + 1);
-  const decrementCount = () => setCount(count - 1);
-
-  const updateSearch = (e) => {
-    setSearch(e.target.value);
-  };
-  const searchClick = () => {
-    window.open(`https://www.google.com/search?tbm=isch&q=${search}`);
-    setSearch("");
-  };
-
   return (
     <div className="App">
-      <Navbar/>
-      <img src={shark} alt="punch"></img>
-
-      <div>
-        <button onClick={searchClick}>Search</button>
-        <input
-          onInput={updateSearch}
-          value={search}
-          placeholder="Image Search"/>
-        <label>Image Search</label>
+      <NavBar />
+      <div className="container">
+        <LandingPage />
+        <About />
+        <Portfolio />
+        <Contact />
       </div>
-
-      <div className="click-container">
-        <button onClick={incrementCount}>+</button>
-        <h3>Click count: {count}</h3>
-        <button onClick={decrementCount}>-</button>
-      </div>
-
     </div>
   );
 }

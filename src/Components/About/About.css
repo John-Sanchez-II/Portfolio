@@ -1,0 +1,30 @@
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  font-family: "Special Elite";
+  text-shadow: 2px 2px 2px #7851a9;
+  color: black;
+}
+
+.aboutMe:before,
+.aboutMe:after {
+  content: " ";
+  flex: 1 1;
+  border-bottom: 1.5px solid;
+  margin: auto;
+  color: #7851a9
+}
+
+.aboutMe:before {
+  margin-right: 5px;
+}
+.aboutMe:after {
+  margin-left: 5px;
+}
+
+.summary{
+    color: black;
+    display: flex;
+    font-family:"Zen Old Mincho" ;
+    padding-top: 50px;
+}

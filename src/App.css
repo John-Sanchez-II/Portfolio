@@ -1,6 +1,20 @@
 .App {
   text-align: center;
 }
+.page{
+  border: 1px solid black;
+  margin: 100px 20px;
+  min-height: 800px;
+}
+.page:nth-child(odd){
+  background: black;
+  color: white
+}
+.page:nth-child(even){
+  background: grey;
+  color: white
+}
+
 
 .click-container{
   display:flex;

@@ -1,0 +1,1 @@
+export const scrollToElement = element => document.querySelector(element).scrollIntoView({behavior:"smooth"});

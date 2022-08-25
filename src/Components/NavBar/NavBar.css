@@ -1,0 +1,6 @@
+.navbar{
+    position: sticky;
+    top:0;  
+    color: green;
+    height: 50px;
+}

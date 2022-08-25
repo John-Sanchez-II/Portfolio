@@ -1,0 +1,25 @@
+.Port {
+    display: flex;
+    flex-direction: row;
+    font-family: "Special Elite";
+    text-shadow: 2px 2px 2px #32cd32;
+    color: black;
+    font-size: 20p;
+  }
+  
+  .Port:before,
+  .Port:after {
+    content: " ";
+    flex: 1 1;
+    border-bottom: 1.5px solid;
+    margin: auto;
+    color: #32cd32
+    ;
+  }
+  
+  .Port:before {
+    margin-right: 5px;
+  }
+  .Port:after {
+    margin-left: 5px;
+  }

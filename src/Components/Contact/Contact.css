@@ -1,0 +1,24 @@
+.Contact {
+    display: flex;
+    flex-direction: row;
+    font-family: "Special Elite";
+    text-shadow: 2px 2px 2px #7851a9;
+    color: black;
+  }
+  
+  .Contact:before,
+  .Contact:after {
+    content: " ";
+    flex: 1 1;
+    border-bottom: 1.5px solid;
+    margin: auto;
+    color: #7851a9
+  }
+  
+  .Contact:before {
+    margin-right: 5px;
+  }
+  .Contact:after {
+    margin-left: 5px;
+  }
+  

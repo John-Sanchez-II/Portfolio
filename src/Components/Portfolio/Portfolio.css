@@ -23,3 +23,23 @@
   .Port:after {
     margin-left: 5px;
   }
+
+  .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center ;
+    padding-top: 35px;
+  }
+
+  .calc {
+    
+    
+    background: black;
+
+  }
+
+  .pacman{
+    
+    background: black;
+  }

@@ -1,3 +1,6 @@
+.myself{
+    
+}
 .aboutMe {
   display: flex;
   flex-direction: row;
@@ -12,7 +15,7 @@
   flex: 1 1;
   border-bottom: 1.5px solid;
   margin: auto;
-  color: #7851a9
+  color: #7851a9;
 }
 
 .aboutMe:before {
@@ -22,9 +25,13 @@
   margin-left: 5px;
 }
 
-.summary{
-    color: black;
-    display: flex;
-    font-family:"Zen Old Mincho" ;
-    padding-top: 50px;
+
+.intro {
+  color: black;
+  font-family: "Zen Old Mincho";
+  padding-top: 50px;
+  max-width: 900px;
+  margin:auto ;
+  padding-top: 100px;
+ 
 }

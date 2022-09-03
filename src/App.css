@@ -1,5 +1,9 @@
+
 .App {
   text-align: center;
+  background-image:url(./imgs/wood.jpg);
+  background-size: 100%;
+  
 }
 .page{
   border: 1px solid black;
@@ -15,8 +19,6 @@
   background: grey;
   color: white
 }
-
-
 
 .click-container{
   display:flex;

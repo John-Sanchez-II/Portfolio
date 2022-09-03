@@ -11,14 +11,16 @@ export default function Portfolio() {
         <a
           className="calc"
           href="https://john-sanchez-ii.github.io/Calculator-II/"
+          rel="noreferrer"
         >
-          <img src={CalcImage} height="250" width="200" />
+          <img alt="calculator" src={CalcImage} height="250" width="200" />
         </a>
         <a
           className="pacman"
           href="https://john-sanchez-ii.github.io/Game-Project/"
+          rel="noreferrer"
         >
-          <img src={PacMimage} height="250" width="200" />
+          <img alt = "pacman" src={PacMimage} height="250" width="200" />
         </a>
 
       </div>

@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="page" id="about">
       <h1 className="aboutMe"> About Me </h1>
-      <img id= "self" src= {selfie} height="300"/>
+      <img alt = "selfie" id= "self" src= {selfie} height="300"/>
 
       <p className="intro">
         An advocate of learning and gaining experience. My interest in

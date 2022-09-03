@@ -11,8 +11,8 @@ export default function NavBar() {
       <button onClick={()=>scrollToElement("#about")}>About</button>
       <button onClick={()=>scrollToElement("#portfolio")}>Portfolio</button>
       <button onClick={()=>scrollToElement("#contact")}>Contact</button>
-      <a href="https://www.linkedin.com/in/juan-a-sanchez/" target="_blank">
-      <button>Resume</button>
+      <a href="https://www.linkedin.com/in/juan-a-sanchez/" target="_blank" rel="noreferrer">
+        <button>Resume</button>
       </a>
       </div>
     </div>

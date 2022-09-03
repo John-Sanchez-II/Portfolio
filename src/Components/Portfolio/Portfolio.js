@@ -4,7 +4,7 @@ import PacMimage from "../../imgs/pacman.png";
 
 export default function NavBar() {
   return (
-    <div className="page">
+    <div className="page" id="portfolio">
       <h1 className="Port">Portfolio</h1>
       {/* make links open in a new page */}
       <div className="links">
@@ -20,6 +20,7 @@ export default function NavBar() {
         >
           <img src={PacMimage} height="250" width="200" />
         </a>
+        
       </div>
     </div>
   );

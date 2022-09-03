@@ -5,6 +5,7 @@
   border: 1px solid black;
   margin: 100px 20px;
   min-height: 800px;
+  
 }
 .page:nth-child(odd){
   background: black;

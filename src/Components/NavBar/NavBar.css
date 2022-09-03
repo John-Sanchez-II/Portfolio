@@ -4,3 +4,9 @@
     color: green;
     height: 50px;
 }
+
+.navButtons{
+  display: flex;
+  justify-content: space-between;
+  /* border-radius: 30px; */
+}

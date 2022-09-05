@@ -1,12 +1,20 @@
-.navbar{
-    position: sticky;
-    top:0;  
-    color: green;
-    height: 50px;
+.logo {
+  display: flex;
+  border: 2px solid white;
+  width: 80px;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+  color: silver;
+  height: 100px;
+  overflow: hidden;
+  border: 2px solid;
 }
 
-.navButtons{
-  display: flex;
-  justify-content: space-between;
+.navButtons {
+  float: right;
+  padding-right: 40px;
   /* border-radius: 30px; */
 }

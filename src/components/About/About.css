@@ -5,7 +5,7 @@
   flex-direction: row;
   font-family: "Special Elite";
   text-shadow: 2px 2px 2px #7851a9;
-  color: black;
+  
 }
 
 .aboutMe:before,
@@ -26,7 +26,7 @@
 
 
 .intro {
-  color: black;
+  color: silver;
   font-family: "Zen Old Mincho";
   padding-top: 50px;
   max-width: 900px;

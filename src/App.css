@@ -1,30 +1,42 @@
-
 .App {
-  text-align: center;
-  background-image:url(./imgs/wood.jpg);
-  background-size: 100%;
-  
+  padding-top: 1px;
+  padding-bottom: 10px;
+  background: #0a0908;
+  background: -moz-linear-gradient(
+    -45deg,
+    #0a0908 0%,
+    #161e22 50%,
+    #22333b 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    #0a0908 0%,
+    #161e22 50%,
+    #22333b 100%
+  );
+  background: linear-gradient(135deg, #0a0908 0%, #161e22 50%, #22333b 100%);
 }
-.page{
-  border: 1px solid black;
+
+.page {
   margin: 100px 20px;
   min-height: 800px;
-  
-}
-.page:nth-child(odd){
-  background: black;
-  color: white
-}
-.page:nth-child(even){
-  background: grey;
-  color: white
 }
 
-.click-container{
-  display:flex;
-  margin:0 auto;
+.page:nth-child(odd) {
+  /* background: black; */
+
+  color: white;
+}
+
+.page:nth-child(even) {
+  /* background: grey; */
+  color: white;
+}
+
+.click-container {
+  display: flex;
+  margin: 0 auto;
   /* justify-content: center; */
   justify-content: space-around;
-  width: 500px
-
+  width: 500px;
 }

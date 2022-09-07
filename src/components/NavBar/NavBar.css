@@ -4,6 +4,7 @@
   color: #73E2A7;
   height: 90px;
   overflow: hidden;
+
 }
 
 .logo {
@@ -19,13 +20,18 @@
 .navButtons {
   float: right;
   padding-right: 10px;
+  
+  
 }
 
 .navButtons button {
+  font-family: "Zen Old Mincho";
+  font-size: 20px;
  align-items: center;
   margin: 1px;
   text-transform: uppercase;
-  color: #022F40;
+  color: purple;
+  text-shadow:#1C7C54 0px 0px 1px;
   padding: -10px;
   border-radius: 10px;
   background: #1C7C54;

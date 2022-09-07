@@ -1,3 +1,6 @@
+.App{
+  font-size:23px;
+}
 .App {
   padding-top: 1px;
   padding-bottom: 10px;
@@ -23,13 +26,10 @@
 }
 
 .page:nth-child(odd) {
-  /* background: black; */
-
   color: white;
 }
 
 .page:nth-child(even) {
-  /* background: grey; */
   color: white;
 }
 
@@ -39,4 +39,23 @@
   /* justify-content: center; */
   justify-content: space-around;
   width: 500px;
+}
+
+.icons{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15px;
+}
+
+.github{
+  /* font-size: 30px; */
+  /* display: flex; */
+  /* justify-content: flex-end ; */
+  padding-right: 13px;
+  color: silver;
+}
+
+.codeWars{
+  color: silver;
+
 }

@@ -4,8 +4,8 @@ import LandingPage from "./components/LandingPage/LandingPage";
 import Portfolio from "./components/Portfolio/Portfolio";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
-import{ FaGithubAlt} from 'react-icons/fa'
-
+import { FaGithubAlt } from "react-icons/fa";
+import { SiCodewars } from "react-icons/si";
 
 function App() {
   return (
@@ -17,10 +17,16 @@ function App() {
         <Portfolio />
         <Contact />
       </div>
-      <a> className="github" href="#"
+      <div className="icons">
+      <a className="github" href="https://github.com/John-Sanchez-II">
         <FaGithubAlt />
+        Github
       </a>
-     
+      <a className="codeWars" href="https://www.codewars.com/users/John-Sanchez-II">
+        < SiCodewars/>
+        Codewars
+      </a>
+      </div>
     </div>
   );
 }

@@ -1,11 +1,8 @@
-
-
 .aboutMe {
   display: flex;
   flex-direction: row;
   font-family: "Special Elite";
   /* text-shadow: 2px 2px 2px #7851a9; */
-  
 }
 
 .aboutMe:before,
@@ -24,19 +21,23 @@
   margin-left: 5px;
 }
 
-
 .intro {
   color: silver;
   font-family: "Zen Old Mincho";
   padding-top: 50px;
   max-width: 900px;
-  margin:auto ;
+  margin: auto;
   padding-top: 40px;
   text-align: left;
- 
 }
 
-#self{
-    display: flex;
-    margin: 0 auto;
+#self {
+  display: flex;
+  margin: 0 auto;
+  width: 300px;
+  border-radius: 15px;
+  -webkit-box-shadow: 2px -15px 22px 0px rgba(114, 97, 163, 0),
+    6px 11px 43px 15px rgba(114, 97, 163, 0.52);
+  box-shadow: 2px -15px 22px 0px rgba(114, 97, 163, 0),
+    6px 11px 43px 15px rgba(114, 97, 163, 0.52);
 }

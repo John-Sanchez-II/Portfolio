@@ -1,11 +1,16 @@
 import "./Contact.css";
+import react from "react"
+
+
+
 
 export default function Contact() {
   return (
     <div className="page" id="contact">
       <h1 className="Contact">Contact</h1>
 
-      <form className="form">
+
+      {/* <form className="form">
         <div className="name">
           <label for="firstName">First Name</label>
           <input
@@ -21,9 +26,9 @@ export default function Contact() {
             name="lastName"
             className="lastName"
             tabIndex="2"
-          />
-        </div>
-      </form>
+          /> */}
+        {/* </div> */}
+      {/* </form> */}
     </div>
   );
 }

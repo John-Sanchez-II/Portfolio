@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: row;
     font-family: "Special Elite";
-    text-shadow: 2px 2px 2px #7851a9;
-    color: black;
+    /* text-shadow: 2px 2px 2px #7851a9; */
+    color: silver;
   }
   
   .Contact:before,

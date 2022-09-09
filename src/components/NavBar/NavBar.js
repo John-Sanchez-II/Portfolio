@@ -1,11 +1,12 @@
 import "./NavBar.css";
 import { scrollToElement } from "../../Helper";
+import logo from "../../imgs/logo.jpg";
 // make navbar disappear when mouse stops moving
 
 export default function NavBar() {
   return (
     <div className="navbar">
-      <h1 className="logo">Logo</h1>
+      <img className="logo" src={logo} alt="logo"/>
       <div className="navButtons">
         <button onClick={() => scrollToElement("#home")}>Home</button>
         <button onClick={() => scrollToElement("#about")}>About</button>

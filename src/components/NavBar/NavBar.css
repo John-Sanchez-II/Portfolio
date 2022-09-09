@@ -1,27 +1,27 @@
 .navbar {
   position: sticky;
   top: 0;
-  color: #73E2A7;
   height: 90px;
   /* overflow: hidden; */
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
  
 
 }
 
 .logo {
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   float: left;
   margin: 8px;
-  display: flex;
-  justify-content: center;
-  padding-left: 35px;
-  border-radius: 30px;
+  /* padding-left: 35px; */
+  border-radius: 50px;
 }
 
 .navButtons {
   float: right;
-  padding-right: 10px;
+  padding-top: 30px;
   
   
 }
@@ -29,18 +29,19 @@
 .navButtons button {
   font-family: "Zen Old Mincho";
   font-size: 20px;
- align-items: center;
   margin: 1px;
   text-transform: uppercase;
-  color: purple;
+  color: #73E2A7;
   text-shadow:#1C7C54 0px 0px 1px;
   padding: -10px;
   border-radius: 10px;
-  background: #1C7C54;
+  /* background: #1C7C54;
   background: -moz-linear-gradient(top, #1C7C54 0%, #73E2A7 100%);
   background: -webkit-linear-gradient(top, #1C7C54 0%, #73E2A7 100%);
   background: linear-gradient(to bottom, #1C7C54 10%, #73E2A7 100%);
-  
+   */
+   border: none;
+   background: transparent;
 }
 
 /* .navButtons:hover { */

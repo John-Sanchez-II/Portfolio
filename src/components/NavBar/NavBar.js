@@ -1,6 +1,6 @@
 import "./NavBar.css";
 import { scrollToElement } from "../../Helper";
-import logo from "../../imgs/logo.jpg";
+import logo from "../../imgs/logo-3.png";
 // make navbar disappear when mouse stops moving
 
 export default function NavBar() {

@@ -6,8 +6,12 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import { FaGithubAlt } from "react-icons/fa";
 import { SiCodewars } from "react-icons/si";
+import { AiOutlineLinkedin } from "react-icons/ai";
+
+
 
 function App() {
+  let reviews = []
   return (
     <div className="App">
       <NavBar />
@@ -20,12 +24,16 @@ function App() {
       <div className="icons">
       <a className="github" href="https://github.com/John-Sanchez-II">
         <FaGithubAlt />
-        Github
+        
       </a>
       <a className="codeWars" href="https://www.codewars.com/users/John-Sanchez-II">
         < SiCodewars/>
-        Codewars
+        
       </a>
+      <a className="linkedIn" href="https://www.linkedin.com/in/juan-a-sanchez/">
+        <AiOutlineLinkedin/>
+      </a>
+        
       </div>
     </div>
   );

@@ -42,9 +42,11 @@
 }
 
 .icons{
+  padding-bottom: 20px;
   display: flex;
-  justify-content: flex-end;
-  padding-right: 15px;
+  justify-content: space-evenly;
+  /* padding-right: 15px; */
+
 }
 
 .github{
@@ -56,6 +58,11 @@
 }
 
 .codeWars{
+  color: silver;
+
+}
+
+.linkedIn {
   color: silver;
 
 }

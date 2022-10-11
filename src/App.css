@@ -46,11 +46,12 @@
   display: flex;
   justify-content: space-evenly;
   /* padding-right: 15px; */
+  font-size: 35px;
 
 }
 
 .github{
-  /* font-size: 30px; */
+  
   /* display: flex; */
   /* justify-content: flex-end ; */
   padding-right: 13px;

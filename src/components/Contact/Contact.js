@@ -9,8 +9,6 @@ export default function Contact() {
     <div className="page" id="contact">
       <h1 className="Contact">Contact</h1>
 
-
-      
     </div>
   );
 }

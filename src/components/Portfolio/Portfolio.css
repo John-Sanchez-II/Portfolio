@@ -1,9 +1,9 @@
 .Port {
     display: flex;
     flex-direction: row;
-    font-family: "Special Elite";
-    /* text-shadow: 2px 2px 2px #32cd32; */
-    color: silver;
+    font-family: 'Peralta', cursive;
+    text-shadow: #24325a 1px 1px 1px;
+    color: white;
     
   }
   
@@ -13,7 +13,7 @@
     flex: 1 1;
     border-bottom: 1.5px solid;
     margin: auto;
-    color: #32cd32
+    color: black;
     ;
   }
   

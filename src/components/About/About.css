@@ -1,8 +1,8 @@
 .aboutMe {
   display: flex;
   flex-direction: row;
-  font-family: "Special Elite";
-  /* text-shadow: 2px 2px 2px #7851a9; */
+  font-family: 'Peralta', cursive;
+  text-shadow: #24325a 1px 1px 1px;
 }
 
 .aboutMe:before,
@@ -11,7 +11,7 @@
   flex: 1 1;
   border-bottom: 1.5px solid;
   margin: auto;
-  color: #7851a9;
+  color: black;
 }
 
 .aboutMe:before {
@@ -22,7 +22,7 @@
 }
 
 .intro {
-  color: silver;
+  color: #24325a;
   font-family: "Zen Old Mincho";
   padding-top: 50px;
   max-width: 900px;
@@ -36,8 +36,12 @@
   margin: 0 auto;
   width: 300px;
   border-radius: 15px;
+  transition: all 1s;
+}
+
+#self:hover{
   -webkit-box-shadow: 2px -15px 22px 0px rgba(114, 97, 163, 0),
-    6px 11px 43px 15px rgba(114, 97, 163, 0.52);
-  box-shadow: 2px -15px 22px 0px rgba(114, 97, 163, 0),
-    6px 11px 43px 15px rgba(114, 97, 163, 0.52);
+  6px 11px 43px 15px rgba(114, 97, 163, 0.52);
+box-shadow: 2px -15px 22px 0px rgba(114, 97, 163, 0),
+  6px 11px 43px 15px rgba(114, 97, 163, 0.52);
 }

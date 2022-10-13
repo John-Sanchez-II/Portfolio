@@ -28,7 +28,7 @@
   max-width: 900px;
   margin: auto;
   padding-top: 40px;
-  text-align: left;
+  text-align: center;
 }
 
 #self {
@@ -40,8 +40,8 @@
 }
 
 #self:hover{
-  -webkit-box-shadow: 2px -15px 22px 0px rgba(114, 97, 163, 0),
-  6px 11px 43px 15px rgba(114, 97, 163, 0.52);
-box-shadow: 2px -15px 22px 0px rgba(114, 97, 163, 0),
-  6px 11px 43px 15px rgba(114, 97, 163, 0.52);
+  -webkit-box-shadow: 2px -15px 22px 0px rgba(60, 108, 104),
+  6px 11px 43px 15px rgba(60, 108, 104);
+box-shadow: 2px -15px 22px 0px rgba(60, 108, 104),
+  6px 11px 43px 15px rgb(60, 108, 104);
 }

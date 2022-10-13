@@ -1,8 +1,56 @@
-.home{
-    display: flex;
-    justify-content: center;
+/* .page{ */
+/* display: flex;
+    justify-content: center; */
+/* } */
+.wrapper {
+  display: inline-block;
+  /* border: 2px solid black; */
+  width: 1900px;
 }
 
-/* #home{
-    border: 1px solid silver;
-} */
+.name{
+    display: flex;
+    justify-content: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 100px;
+    text-shadow:  #7C292A  2px 2px 2px;
+    /* border: 2px solid black; */
+}
+.greeting {
+    /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  color: #417571;
+  text-shadow:  #ffffee 1px 1px 1px;
+  font-size: 55px;
+  overflow: hidden; 
+  /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; 
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 13px; /* Adjust as needed */
+  animation: typing 8.5s steps(50, end), blink-caret 5s step-end infinite;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  padding-top: 50px;
+  max-width: 1200px;
+
+  text-align: center;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.hobby{
+    display: flex;
+    justify-content: center;
+    font-family: 'Fredoka One', cursive;
+    color: #ffffee;
+    text-shadow: #417571 2px 2px 2px;
+}

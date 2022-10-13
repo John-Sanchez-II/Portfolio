@@ -4,14 +4,16 @@
   display: flex;
   justify-content: space-between;
   /* border: 2px solid black; */
+  /* width: 1000px; */
 }
 
 .logo {
   height: 100px;
   width: 100px;
-  float: left;
+  /* float: left; */
   margin: 8px;
   border-radius: 50px;
+  
 }
 
 .navButtons {

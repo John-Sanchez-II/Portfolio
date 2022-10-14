@@ -7,12 +7,18 @@
   /* border: 2px solid black; */
   width: 1900px;
 }
+/* .hi{
+    display: flex;
+    justify-content: center;
+    color: #417571;
+} */
 
 .name{
     display: flex;
     justify-content: center;
-    font-family: 'Fredoka One', cursive;
-    font-size: 100px;
+    font-family: 'Neonderthaw', cursive;
+    color:#24325a ;
+    font-size: 120px;
     text-shadow:  #7C292A  2px 2px 2px;
     /* border: 2px solid black; */
 }

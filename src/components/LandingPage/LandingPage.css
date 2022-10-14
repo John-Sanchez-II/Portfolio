@@ -18,16 +18,14 @@
     justify-content: center;
     font-family: 'Neonderthaw', cursive;
     color:#24325a ;
-    font-size: 120px;
-    text-shadow:  #7C292A  2px 2px 2px;
+    font-size: 150px;
+    text-shadow:  #417571 5px 5px 8px;
     /* border: 2px solid black; */
 }
 .greeting {
     /* border: 2px solid black; */
-  display: flex;
-  justify-content: center;
   color: #417571;
-  text-shadow:  #ffffee 1px 1px 1px;
+  text-shadow:  black  3px 3px 2px;
   font-size: 55px;
   overflow: hidden; 
   /* Ensures the content is not revealed until the animation */
@@ -35,15 +33,14 @@
   margin: 0 auto; 
   /* Gives that scrolling effect as the typing happens */
   letter-spacing: 13px; /* Adjust as needed */
-  animation: typing 8.5s steps(50, end), blink-caret 5s step-end infinite;
+  animation: typing 4.5s steps(35, end);
   text-align: center;
   font-family: 'Fredoka One', cursive;
   padding-top: 50px;
   max-width: 1200px;
-
   text-align: center;
 }
-
+/* the typing effect */
 @keyframes typing {
   from {
     width: 0;
@@ -58,5 +55,6 @@
     justify-content: center;
     font-family: 'Fredoka One', cursive;
     color: #ffffee;
-    text-shadow: #417571 2px 2px 2px;
+    text-shadow: 3px 3px 2px #417571,
+    4px 2px 9px #24325a ;
 }

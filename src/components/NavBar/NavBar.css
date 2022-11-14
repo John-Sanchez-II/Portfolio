@@ -5,7 +5,8 @@
   display: flex;
   justify-content: space-between;
   /* border: 2px solid black; */
-  width: 1900px;
+  /* vw is viewport width */
+  width: 100vw;
 }
 
 .logo {

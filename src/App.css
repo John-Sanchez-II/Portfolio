@@ -1,6 +1,6 @@
 .App{
   font-size:23px;
-  overflow: hidden;
+  overflow:auto;
 }
 .App {
   padding-top: 1px;
@@ -19,7 +19,7 @@
     #22333b 100%
   );
   background: linear-gradient(135deg, #0a0908 0%, #161e22 50%, #22333b 100%); */
-  background-image: linear-gradient(to right, #ffe, #417571);
+  background-image: linear-gradient(to right, #755F3C, #1E3634);
 }
 
 .page {

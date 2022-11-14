@@ -1,11 +1,12 @@
-/* .page{ */
-/* display: flex;
-    justify-content: center; */
-/* } */
+/* .page{ 
+ /* display: flex;  */
+    /* justify-content: center;  */
+ /* }  */ 
+
 .wrapper {
   display: inline-block;
   /* border: 2px solid black; */
-  width: 1900px;
+  width: 100vw;
 }
 /* .hi{
     display: flex;
@@ -19,13 +20,13 @@
     font-family: 'Neonderthaw', cursive;
     color:#24325a ;
     font-size: 150px;
-    text-shadow:  #417571 5px 5px 8px;
+    text-shadow:#6096BA 5px 5px 8px;
     /* border: 2px solid black; */
 }
 .greeting {
     /* border: 2px solid black; */
   color: #417571;
-  text-shadow:  black  3px 3px 2px;
+  text-shadow:  #F4BBD3  3px 3px 2px;
   font-size: 55px;
   overflow: hidden; 
   /* Ensures the content is not revealed until the animation */
@@ -54,7 +55,31 @@
     display: flex;
     justify-content: center;
     font-family: 'Fredoka One', cursive;
-    color: #ffffee;
-    text-shadow: 3px 3px 2px #417571,
+    color: #6096BA;
+    text-shadow: 2px 1px 1px #D22730,
     4px 2px 9px #24325a ;
 }
+
+/* google info
+
+email
+: 
+"jsanchez0937@gmail.com"
+familyName
+: 
+"Sanchez"
+givenName
+: 
+"Juan"
+googleId
+: 
+"116151259502401217418"
+imageUrl
+: 
+"https://lh3.googleusercontent.com/a/ALm5wu3WlLlUXYFzcOyxeW3E_tXkVCJd0q6rAUqohct5bg=s96-c"
+name
+: 
+"Juan Sanchez"
+ttl
+: 
+1670099716545 */

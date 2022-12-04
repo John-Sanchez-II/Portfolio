@@ -2,7 +2,7 @@ import "./LandingPage.css";
 
 export default function LandingPage(){
   
-  return <div className="page" >
+  return <div className="aboutPage" id="home" >
     <div className="wrapper">
       {/* <h2 className="hi">Hii</h2> */}
       <h1 className="name">Juan Sanchez</h1>

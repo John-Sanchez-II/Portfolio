@@ -1,32 +1,29 @@
-/* .page{ 
- /* display: flex;  */
-    /* justify-content: center;  */
- /* }  */ 
+.aboutPage{
+  background: black;
+}
+#home{
+  background:black;
 
+}
 .wrapper {
   display: inline-block;
   /* border: 2px solid black; */
   width: 100vw;
+  height: 100vh;
 }
-/* .hi{
-    display: flex;
-    justify-content: center;
-    color: #417571;
-} */
-
 .name{
     display: flex;
     justify-content: center;
     font-family: 'Neonderthaw', cursive;
-    color:#24325a ;
+    color:black ;
     font-size: 150px;
-    text-shadow:#6096BA 5px 5px 8px;
+    text-shadow:#99005D 5px 5px 7px;
     /* border: 2px solid black; */
 }
 .greeting {
     /* border: 2px solid black; */
-  color: #417571;
-  text-shadow:  #F4BBD3  3px 3px 2px;
+  color: black;
+  text-shadow:  #80B5B0 2px -2px 2px;
   font-size: 55px;
   overflow: hidden; 
   /* Ensures the content is not revealed until the animation */
@@ -55,9 +52,9 @@
     display: flex;
     justify-content: center;
     font-family: 'Fredoka One', cursive;
-    color: #6096BA;
-    text-shadow: 2px 1px 1px #D22730,
-    4px 2px 9px #24325a ;
+    color: black;
+    text-shadow: 1px 1px 1px #80B5B0;
+    /* 2px 2px 5px #24325a ; */
 }
 
 /* google info

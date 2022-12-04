@@ -3,6 +3,7 @@ import selfie from "../../imgs/color.jpg";
 
 export default function About() {
   return (
+    
     <div className="page" id="about">
       <h1 className="aboutMe"> About Me </h1>
       <img alt="selfie" id="self" src={selfie} />
@@ -25,5 +26,6 @@ export default function About() {
         applications.
       </p>
     </div>
+    
   );
 }

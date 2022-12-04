@@ -9,7 +9,7 @@ import { SiCodewars } from "react-icons/si";
 import { AiOutlineLinkedin } from "react-icons/ai";
 
 
-  // let reviews = []
+  
 function App() {
 
   return (

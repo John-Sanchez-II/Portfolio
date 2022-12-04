@@ -1,8 +1,11 @@
+.aboutPage{
+  background:#417571;
+}
 .aboutMe {
   display: flex;
   flex-direction: row;
   font-family: 'Peralta', cursive;
-  text-shadow: #24325a 1px 1px 1px;
+  text-shadow: #99005D  1px 1px 1px;
 }
 
 .aboutMe:before,
@@ -22,14 +25,13 @@
 }
 
 .intro {
-  color: turquoise;
+  color: black;
   font-family: "Zen Old Mincho";
   font-size:xx-large;
   padding-top: 50px;
   max-width: 900px;
   margin: auto;
   padding-top: 40px;
-  text-align: center;
   text-shadow: 1px 1px 1px  #417571;
 }
 
@@ -39,6 +41,7 @@
   width: 300px;
   border-radius: 15px;
   transition: all 1s;
+  border: 1px solid #99005D;
 }
 
 #self:hover{

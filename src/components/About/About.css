@@ -22,7 +22,7 @@
 }
 
 .intro {
-  color: white;
+  color: turquoise;
   font-family: "Zen Old Mincho";
   font-size:xx-large;
   padding-top: 50px;
@@ -30,7 +30,7 @@
   margin: auto;
   padding-top: 40px;
   text-align: center;
-  text-shadow: 1px 1px 1px  #FFAD00;
+  text-shadow: 1px 1px 1px  #417571;
 }
 
 #self {
@@ -42,8 +42,8 @@
 }
 
 #self:hover{
-  -webkit-box-shadow: 2px -15px 22px 0px rgba(60, 108, 104),
-  6px 11px 43px 15px rgba(60, 108, 104);
-box-shadow: 2px -15px 22px 0px rgba(60, 108, 104),
-  6px 11px 43px 15px rgb(60, 108, 104);
+  /* -webkit-box-shadow: 2px -15px 22px 0px #99005D,
+  6px 11px 43px 15px #99005D; */
+box-shadow: 2px -3px 5px 0px #99005D,
+  3px 5px 63px 10px #99005D;
 }

@@ -5,21 +5,8 @@
 .App {
   padding-top: 1px;
   padding-bottom: 10px;
-  /* background: #0a0908;
-  background: -moz-linear-gradient(
-    -45deg,
-    #0a0908 0%,
-    #161e22 50%,
-    #22333b 100%
-  );
-  background: -webkit-linear-gradient(
-    -45deg,
-    #0a0908 0%,
-    #161e22 50%,
-    #22333b 100%
-  );
-  background: linear-gradient(135deg, #0a0908 0%, #161e22 50%, #22333b 100%); */
-  background-image: linear-gradient(to right, #755F3C, #1E3634);
+  /* background-image: linear-gradient(to right, #755F3C, #1E3634); */
+background:#417571;
 }
 
 .page {

@@ -27,12 +27,13 @@
 .intro {
   color: black;
   font-family: "Zen Old Mincho";
-  font-size:xx-large;
+  font-size:x-large;
   padding-top: 50px;
   max-width: 900px;
   margin: auto;
   padding-top: 40px;
   text-shadow: 1px 1px 1px  #417571;
+  text-align: justify;
 }
 
 #self {

@@ -9,16 +9,8 @@ export default function About() {
       <img alt="selfie" id="self" src={selfie} />
 
       <p className="intro">
-         I try to consider others perspectives to get a
-        better understanding of their thought processes in order to create a
-        more engaging team environment. I don't like to stay idle and try my
-        best to stay ahead of my tasks. I had a strong desire to explore
-        software engineering to combine my partial computer skills and have a
-        deeper understanding of what is going on behind the scenes of computer
-        programs and applications. I am now shifting towards software
-        development under the tutelage of Nebula Academy, and looking for an
-        opportunity to learn and grow with a company to launch their websites or
-        applications.
+      I'm Juan, and I am a full-stack web developer. Previous limited experience I had with web design sparked an interest in web development that I was thrilled to pursue, and the more I learn the more I feel at home in the industry.<br/>
+      <br/> Having the knowledge and skills to make websites and applications come to life from the ground up gratifies a part of me that truly enjoys problem-solving and the production process. I am an effective communicator, collaborator, critical thinker, and project organizer, and I hope these skills along with my continued education in the field will bolster my capability as a web dev and help me help others bring their ideas to life on the web efficiently and creatively.
       </p>
     </div>
     

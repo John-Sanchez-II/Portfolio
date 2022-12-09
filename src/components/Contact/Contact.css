@@ -1,25 +1,62 @@
-
 .Contact {
+  display: flex;
+  flex-direction: row;
+  font-family: "Peralta", cursive;
+  text-shadow: #24325a 1px 1px 1px;
+  color: black;
+}
+
+.Contact:before,
+.Contact:after {
+  content: " ";
+  flex: 1 1;
+  border-bottom: 1.5px solid;
+  margin: auto;
+  color: black;
+}
+
+.Contact:before {
+  margin-right: 5px;
+}
+.Contact:after {
+  margin-left: 5px;
+}
+.farewellSpeech {
+  /* padding-top: 150PX; */
+  text-align: justify;
+  max-width: 1150px;
+  margin: auto;
+  margin-top: -175px;
+  font-size: x-large;
+  font-family: "Zen Old Mincho";
+  /* border: 1px solid black; */
+}
+
+.icons {
+  /* padding-bottom: 20px; */
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  width: 150px;
+  gap: 25px;
+  padding-right: 15px;
+  font-size: 50px;
+}
+
+.located {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 1px solid white; */
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  font-family: "Special Elite";
+
+  
+}
+/* .island{
     display: flex;
-    flex-direction: row;
-    font-family: "Peralta", cursive;
-    text-shadow: #24325a 1px 1px 1px;
-    color: white;
-  }
-  
-  .Contact:before,
-  .Contact:after {
-    content: " ";
-    flex: 1 1;
-    border-bottom: 1.5px solid;
-    margin: auto;
-    color: black
-  }
-  
-  .Contact:before {
-    margin-right: 5px;
-  }
-  .Contact:after {
-    margin-left: 5px;
-  }
-  
+  } */

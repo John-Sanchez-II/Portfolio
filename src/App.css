@@ -32,20 +32,12 @@
   width: 500px;
 }
 
-.icons{
-  padding-bottom: 20px;
-  display: flex;
-  justify-content: space-evenly;
-  /* padding-right: 15px; */
-  font-size: 35px;
-
-}
 
 .github{
   
-  /* display: flex; */
-  /* justify-content: flex-end ; */
-  padding-right: 13px;
+  /* `display: flex; */
+  /* justify-content: center; */
+  /* padding-right: 13px; */
   color: #24325a;
 }
 

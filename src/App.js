@@ -21,20 +21,7 @@ function App() {
         <Portfolio />
         <Contact />
       </div>
-      <div className="icons">
-      <a className="github" href="https://github.com/John-Sanchez-II">
-        <FaGithubAlt />
-        
-      </a>
-      <a className="codeWars" href="https://www.codewars.com/users/John-Sanchez-II">
-        < SiCodewars/>
-        
-      </a>
-      <a className="linkedIn" href="https://www.linkedin.com/in/juan-a-sanchez/">
-        <AiOutlineLinkedin/>
-      </a>
-        
-      </div>
+    
     </div>
   );
 }

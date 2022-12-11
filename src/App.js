@@ -19,7 +19,7 @@ function App() {
         <LandingPage />
         <About />
         <Portfolio />
-        <Contact />
+        <Contact/>
       </div>
     
     </div>

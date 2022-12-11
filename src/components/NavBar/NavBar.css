@@ -6,6 +6,11 @@
   /* vw is viewport width */
   width: 100vw;
 }
+@media all and (max-width:600px){
+  .navButtons{
+    flex-direction: column;
+  }
+}
 
 .logo {
   height: 100px;
@@ -17,7 +22,7 @@
 }
 
 .navButtons {
-  /* float: right; */
+  display: flex;
   padding-top: 30px;
 }
 

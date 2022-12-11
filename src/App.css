@@ -1,3 +1,7 @@
+.container{
+  /* border: 1px solid pink; */
+  background: #417571;
+}
 .App{
   font-size:23px;
   overflow:hidden;
@@ -6,12 +10,13 @@
   padding-top: 1px;
   padding-bottom: 10px;
   /* background-image: linear-gradient(to right, #755F3C, #1E3634); */
-  background: #417571;
+  background: black;
 }
 
 .page {
   margin: 100px 20px;
-  min-height: 800px;
+  /* height: 1300px; */
+  padding-bottom: 250px;
   background: #417571;
 }
 
@@ -32,12 +37,8 @@
   width: 500px;
 }
 
-
 .github{
   
-  /* `display: flex; */
-  /* justify-content: center; */
-  /* padding-right: 13px; */
   color: #24325a;
 }
 

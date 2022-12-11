@@ -20,6 +20,7 @@
     text-shadow:#417571 5px 5px 7px;
     /* border: 2px solid black; */
 }
+
 .greeting {
     /* border: 2px solid black; */
   color: black;
@@ -57,6 +58,14 @@
     /* 2px 2px 5px #24325a ; */
 }
 
+@media all and (max-width: 600px){
+  .name{
+    font-size: 100px;
+  }
+  .greeting{
+    white-space:unset;
+  }
+}
 /* google info
 
 email

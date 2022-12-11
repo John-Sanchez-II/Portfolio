@@ -1,9 +1,13 @@
-.Contact {
+ /* .page#contact {
+  height: 600px;
+ } */
+ .Contact {
   display: flex;
   flex-direction: row;
   font-family: "Peralta", cursive;
   text-shadow: #24325a 1px 1px 1px;
   color: black;
+  /* border: 1px solid red; */
 }
 
 .Contact:before,
@@ -21,12 +25,16 @@
 .Contact:after {
   margin-left: 5px;
 }
+
+#page{
+  margin: 0;
+}
 .farewellSpeech {
   /* padding-top: 150PX; */
   text-align: justify;
   max-width: 1150px;
   margin: auto;
-  margin-top: -175px;
+  /* margin-top: -175px; */
   font-size: x-large;
   font-family: "Zen Old Mincho";
   /* border: 1px solid black; */
@@ -47,15 +55,26 @@
 .located {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
-  /* border: 1px solid white; */
-  width: 500px;
-  height: 500px;
+  height: 350px;
   margin: auto;
   font-family: "Special Elite";
+  background: black;
+  color: white;
+  /* border: 1px solid red; */
+  position:static;
+  /* top: 36vh; */
+  left: 0; 
+  right: 0px; 
+  bottom: 0;
+}
 
-  
+@media all and (max-width: 600px){
+  .icons{
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+  }
 }
 /* .island{
     display: flex;

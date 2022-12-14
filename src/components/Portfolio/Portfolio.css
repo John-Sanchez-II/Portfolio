@@ -1,54 +1,55 @@
+.page#portfolio {
+  display: grid;
+}
 .Port {
-    display: flex;
-    flex-direction: row;
-    font-family: 'Peralta', cursive;
-    text-shadow: #24325a 1px 1px 1px;
-    color: black;
-    
-  }
-  
-  .Port:before,
-  .Port:after {
-    content: " ";
-    flex: 1 1;
-    border-bottom: 1.5px solid;
-    margin: auto;
-    color: black;
-    ;
-  }
-  
-  .Port:before {
-    margin-right: 5px;
-  }
-  .Port:after {
-    margin-left: 5px;
-  }
+  display: flex;
+  flex-direction: row;
+  font-family: "Peralta", cursive;
+  text-shadow: #24325a 1px 1px 1px;
+  color: black;
+}
 
-  .links{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center ;
-    padding-top: 35px;
-    
-  }
+.Port:before,
+.Port:after {
+  content: " ";
+  flex: 1 1;
+  border-bottom: 1.5px solid;
+  margin: auto;
+  color: black;
+}
 
-  .calc {
-    /* background: black; */
-    border:3px solid #99005D;
-    border-radius: 10%;
-    padding: 7px;
-    /* width: 200px; */
-  }
-  img{
-    max-width: 100%;
-    height: auto;
-    
-  }
-  .pacman{
-    /* background: black; */
-    border:3px solid #99005D; 
-    /* border-radius: 10%; */
-    padding: 7px;
-    width: 200px;
-  }
+.Port:before {
+  margin-right: 5px;
+}
+.Port:after {
+  margin-left: 5px;
+}
+
+.links {
+  /* border: 1px solid pink; */
+  display: inline-grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 80px 350px;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: auto;
+}
+
+img {
+  border-radius: 20%;
+}
+.app {
+  
+  animation: roll-in-top 0.8s ease-out;
+  border: 3px solid black;
+  -webkit-box-shadow: 1px 3px 21px 9px #000000, inset 0px 0px 50px 9px #000000,
+    inset 0px 0px 50px 9px #000000;
+  box-shadow: 1px 3px 21px 9px #000000, inset 0px 0px 50px 9px #000000,
+    inset 0px 0px 50px 9px #000000;
+  background: #1c6ea4;
+}
+body#tinymce {
+  background: #ffffff;
+}

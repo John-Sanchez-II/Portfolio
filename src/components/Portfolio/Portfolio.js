@@ -1,6 +1,8 @@
 import "./Portfolio.css";
 import CalcImage from "../../imgs/Calc-project.png";
 import PacMimage from "../../imgs/pacman.png";
+import notNetflix from "../../imgs/not-netflix.png";
+import meMyselfI from "../../imgs/Meself&I.png"
 
 export default function Portfolio() {
   return (
@@ -9,20 +11,47 @@ export default function Portfolio() {
       {/* make links open in a new page */}
       <div className="links">
         <a
-          className="calc"
+          className="calcLink"
           href="https://john-sanchez-ii.github.io/Calculator-II/"
           rel="noreferrer"
         >
-          <img classname= "project1" alt="calculator" src={CalcImage} height="250" width="200" />
+          <img
+            alt="calculator"
+            src={CalcImage}
+            className="app"
+            height="350"
+            width="300"
+          />
         </a>
         <a
           className="pacman"
           href="https://john-sanchez-ii.github.io/Game-Project/"
           rel="noreferrer"
         >
-          <img alt = "pacman" src={PacMimage} height="250" width="200" />
+          <img
+            alt="pacman"
+            src={PacMimage}
+            className="app"
+            height="350"
+            width="300"
+          />
         </a>
-
+        <a
+          className="notNetflix"
+          href="https://imaginative-unicorn-f88fec.netlify.app/"
+          rel="noreferrer"
+        >
+          <img alt="notFlix" src={notNetflix} className="app" height="350" width="300" />
+        </a>
+        <a
+          className="moodApp"
+          href="https://main.d3156uqzn4jd72.amplifyapp.com/"
+          rel="noreferrer"
+        >
+          <img alt="Me&I" src={meMyselfI}
+          className="app" height="350" width="300"
+          />
+        </a>
       </div>
     </div>
   );

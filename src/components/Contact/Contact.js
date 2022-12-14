@@ -8,6 +8,14 @@ export default function Contact() {
     <>
       <div className="page" id="contact">
         <h1 className="Contact">Contact</h1>
+        
+        <p className="farewellSpeech">
+          I'm always looking for opportunities to expand upon my skills and am
+          currently seeking a full-time junior web developer position or
+          internship. I'd also love to hear from you if you have any questions,
+          are looking to network, or would like to chat about any projects I can
+          help with.
+        </p>
         <div className="icons">
           <a className="github" href="https://github.com/John-Sanchez-II">
             <FaGithubAlt />
@@ -25,13 +33,7 @@ export default function Contact() {
             <AiOutlineLinkedin />
           </a>
         </div>
-        <p className="farewellSpeech">
-          I'm always looking for opportunities to expand upon my skills and am
-          currently seeking a full-time junior web developer position or
-          internship. I'd also love to hear from you if you have any questions,
-          are looking to network, or would like to chat about any projects I can
-          help with.
-        </p>
+      
       </div>
       <div className="located">
         <h3> Location</h3>

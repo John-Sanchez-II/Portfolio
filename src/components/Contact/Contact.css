@@ -1,6 +1,7 @@
- /* .page#contact {
-  height: 600px;
- } */
+ .page#contact {
+  /* height: 600px; */
+  align-items: center;
+ }
  .Contact {
   display: flex;
   flex-direction: row;
@@ -30,31 +31,36 @@
   margin: 0;
 }
 .farewellSpeech {
-  /* padding-top: 150PX; */
+  padding-top: 150PX;
   text-align: justify;
-  max-width: 1150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   margin: auto;
-  /* margin-top: -175px; */
+  max-width: 1000px;
+  max-height: 600px;
   font-size: x-large;
   font-family: "Zen Old Mincho";
   /* border: 1px solid black; */
+
 }
 
 .icons {
-  /* padding-bottom: 20px; */
+  padding-top: 20px;
   display: flex;
-  align-items: flex-end;
-  flex-direction: column;
+  justify-content: center;
+  /* flex-direction: column; */
   /* border: 1px solid black; */
-  width: 150px;
-  gap: 25px;
-  padding-right: 15px;
+ 
+  gap: 50px;
+  /* padding-right: 15px; */
   font-size: 50px;
 }
 
 .located {
   display: flex;
-  align-items: center;
+  align-items:center;
   flex-direction: column;
   height: 350px;
   margin: auto;

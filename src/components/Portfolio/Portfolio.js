@@ -13,7 +13,7 @@ export default function Portfolio() {
           href="https://john-sanchez-ii.github.io/Calculator-II/"
           rel="noreferrer"
         >
-          <img alt="calculator" src={CalcImage} height="250" width="200" />
+          <img classname= "project1" alt="calculator" src={CalcImage} height="250" width="200" />
         </a>
         <a
           className="pacman"

@@ -1,5 +1,6 @@
 .page#portfolio {
   display: grid;
+  height: auto;
 }
 .Port {
   display: flex;
@@ -27,18 +28,21 @@
 
 .links {
   /* border: 1px solid pink; */
-  display: inline-grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(2, auto);
-  grid-gap: 80px 350px;
+  display: flex;
+  justify-content: space-between;
+  /* grid-template-columns: repeat(2, auto); */
+  /* grid-template-rows: repeat(2, auto); */
+  grid-gap: 100px ;
+  align-items: flex-end;
   width: auto;
-  height: auto;
+  height: 600px;
   padding: 0;
   margin: auto;
+  
 }
 
 img {
-  border-radius: 20%;
+  border-radius: 5%;
 }
 .app {
   

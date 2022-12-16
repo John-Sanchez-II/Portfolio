@@ -26,8 +26,6 @@
 
 .intro {
   color: black;
-  
-  
   font-size:x-large;
   padding-top: 50px;
   max-width: 900px;
@@ -35,6 +33,7 @@
   padding-top: 40px;
   text-shadow: 1px 1px 1px  #417571;
   text-align: justify;
+ 
 }
 
 #self {
@@ -44,6 +43,7 @@
   border-radius: 15px;
   transition: all 1s;
   border: 1px solid #99005D;
+   
 }
 
 #self:hover{

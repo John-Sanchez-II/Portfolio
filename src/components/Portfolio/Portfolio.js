@@ -18,7 +18,7 @@ export default function Portfolio() {
           <img
             alt="calculator"
             src={CalcImage}
-            className="app"
+            className="apps"
             height="350"
             width="300"
           />
@@ -31,7 +31,7 @@ export default function Portfolio() {
           <img
             alt="pacman"
             src={PacMimage}
-            className="app"
+            className="apps"
             height="350"
             width="300"
           />
@@ -41,7 +41,7 @@ export default function Portfolio() {
           href="https://imaginative-unicorn-f88fec.netlify.app/"
           rel="noreferrer"
         >
-          <img alt="notFlix" src={notNetflix} className="app" height="350" width="300" />
+          <img alt="notFlix" src={notNetflix} className="apps" height="350" width="300" />
         </a>
         <a
           className="moodApp"
@@ -49,7 +49,7 @@ export default function Portfolio() {
           rel="noreferrer"
         >
           <img alt="Me&I" src={meMyselfI}
-          className="app" height="350" width="300"
+          className="apps" height="350" width="300"
           />
         </a>
       </div>

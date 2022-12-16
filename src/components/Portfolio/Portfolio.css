@@ -35,54 +35,55 @@
   margin: auto;
   /* border: 1px solid pink; */
   justify-content: space-evenly;
-  /* align-items: flex-end; */
-  /* width: auto; */
-  /* height: auto; */
-  animation: swirl 4s ease-in 1 normal none;
 }
-
-@keyframes swirl {
-  0% {
-    opacity: 0;transform: rotate(-540deg) scale(0);
-  }
-  100% {
-    opacity: 1;transform: rotate(0) scale(1);
-  }
-  
-}
-
 img{
   border-radius: 35px;
+  transition: opacity 0.4s ease;
+  /* opacity: .5; */
+  transition:  100ms;
 }
 
 img:hover{
-  animation: bounce 1s;
+  animation:  bounce 2s ease 0s infinite normal none;
+  /* opacity: 1.0; */
+  filter: grayscale(2);
+  
+
+
 }
 @keyframes bounce {
-  0%, 20%, 60%, 100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
+  0% {
+    animation-timing-function: ease-in;opacity: 1;transform: translateY(-45px);
   }
-
+  24% {
+    opacity: 1;
+  }
   40% {
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
+    animation-timing-function: ease-in;transform: translateY(-24px);
   }
-
-  80% {
-    -webkit-transform: translateY(-10px);
-    transform: translateY(-10px);
+  65% {
+    animation-timing-function: ease-in;transform: translateY(-12px);
   }
+  82% {
+    animation-timing-function: ease-in;transform: translateY(-6px);
+  }
+  93% {
+    animation-timing-function: ease-in;transform: translateY(-4px);
+  }
+  25%,55%,75%,87% {
+    animation-timing-function: ease-out;transform: translateY(0px);
+  }
+  100% {
+    animation-timing-function: ease-out;opacity: 1;transform: translateY(0px);
+  }
+  
 }
-.app {
+.apps {
   animation: roll-in-top 0.8s ease-out;
   border: 3px solid black;
-  -webkit-box-shadow: 1px 3px 21px 9px #000000, inset 0px 0px 50px 9px #000000,
+  -webkit-box-shadow: 1px 3px 11px 9px #000000, inset 0px 0px 50px 9px #000000,
     inset 0px 0px 50px 9px #000000;
-  box-shadow: 1px 3px 21px 9px #000000, inset 0px 0px 50px 9px #000000,
+  box-shadow: 1px 3px 11px 9px #000000, inset 0px 0px 50px 9px #000000,
     inset 0px 0px 50px 9px #000000;
-  background: #1c6ea4;
-}
-body#tinymce {
-  background: #ffffff;
+  
 }

@@ -1,6 +1,6 @@
 .page#portfolio {
-  display: grid;
-  height: auto;
+  /* display: grid; */
+  height: 800px;
 }
 .Port {
   display: flex;
@@ -27,17 +27,45 @@
 }
 
 .links {
-  /* border: 1px solid pink; */
-  display: flex;
-  justify-content: space-between;
-  /* grid-template-columns: repeat(2, auto); */
-  /* grid-template-rows: repeat(2, auto); */
-  grid-gap: 100px ;
-  align-items: flex-end;
-  width: auto;
-  height: 600px;
-  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 190px;
+  padding: 10px;
   margin: auto;
+  /* border: 1px solid pink; */
+  justify-content: space-evenly;
+  /* align-items: flex-end; */
+  /* width: auto; */
+  /* height: auto; */
+  animation: bounce 3s ease-in 0s 1 normal none;
+}
+
+@keyframes bounce {
+  0% {
+    animation-timing-function: ease-in;opacity: 1;transform: translateY(-45px);
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    animation-timing-function: ease-in;transform: translateY(-24px);
+  }
+  65% {
+    animation-timing-function: ease-in;transform: translateY(-12px);
+  }
+  82% {
+    animation-timing-function: ease-in;transform: translateY(-6px);
+  }
+  93% {
+    animation-timing-function: ease-in;transform: translateY(-4px);
+  }
+  25%,55%,75%,87% {
+    animation-timing-function: ease-out;transform: translateY(0px);
+  }
+  100% {
+    animation-timing-function: ease-out;opacity: 1;transform: translateY(0px);
+  }
   
 }
 
@@ -45,7 +73,6 @@ img {
   border-radius: 5%;
 }
 .app {
-  
   animation: roll-in-top 0.8s ease-out;
   border: 3px solid black;
   -webkit-box-shadow: 1px 3px 21px 9px #000000, inset 0px 0px 50px 9px #000000,

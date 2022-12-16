@@ -38,39 +38,23 @@
   /* align-items: flex-end; */
   /* width: auto; */
   /* height: auto; */
-  animation: bounce 3s ease-in 0s 1 normal none;
+  animation: swirl 4s ease-in 1 normal none;
 }
 
-@keyframes bounce {
+@keyframes swirl {
   0% {
-    animation-timing-function: ease-in;opacity: 1;transform: translateY(-45px);
-  }
-  24% {
-    opacity: 1;
-  }
-  40% {
-    animation-timing-function: ease-in;transform: translateY(-24px);
-  }
-  65% {
-    animation-timing-function: ease-in;transform: translateY(-12px);
-  }
-  82% {
-    animation-timing-function: ease-in;transform: translateY(-6px);
-  }
-  93% {
-    animation-timing-function: ease-in;transform: translateY(-4px);
-  }
-  25%,55%,75%,87% {
-    animation-timing-function: ease-out;transform: translateY(0px);
+    opacity: 0;transform: rotate(-540deg) scale(0);
   }
   100% {
-    animation-timing-function: ease-out;opacity: 1;transform: translateY(0px);
+    opacity: 1;transform: rotate(0) scale(1);
   }
   
 }
 
-img {
-  border-radius: 5%;
+img:hover{
+  transform: skew(-10deg);
+  border-radius: 25px;
+
 }
 .app {
   animation: roll-in-top 0.8s ease-out;

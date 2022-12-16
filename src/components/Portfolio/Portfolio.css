@@ -36,14 +36,14 @@
   /* border: 1px solid pink; */
   justify-content: space-evenly;
 }
-img{
+.apps{
   border-radius: 35px;
   transition: opacity 0.4s ease;
   /* opacity: .5; */
-  transition:  100ms;
+  /* animation: bounce 2s ease 0s infinite normal none; */
 }
 
-img:hover{
+.apps:hover{
   animation:  bounce 2s ease 0s infinite normal none;
   /* opacity: 1.0; */
   filter: grayscale(2);

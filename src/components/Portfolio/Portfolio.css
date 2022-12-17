@@ -1,6 +1,6 @@
-.page#portfolio {
-  /* display: grid; */
-  height: 800px;
+.page#portfolio { 
+ /* display: grid;  */
+ height: 1000px; 
 }
 .Port {
   display: flex;
@@ -8,6 +8,7 @@
   font-family: "Peralta", cursive;
   text-shadow: #24325a 1px 1px 1px;
   color: black;
+  
 }
 
 .Port:before,
@@ -30,60 +31,82 @@
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(2, auto);
-  grid-gap: 190px;
+  grid-gap: 100px;
   padding: 10px;
   margin: auto;
   /* border: 1px solid pink; */
   justify-content: space-evenly;
+ 
 }
-.apps{
-  border-radius: 35px;
-  transition: opacity 0.4s ease;
-  /* opacity: .5; */
-  /* animation: bounce 2s ease 0s infinite normal none; */
-}
-
-.apps:hover{
-  animation:  bounce 2s ease 0s infinite normal none;
-  /* opacity: 1.0; */
-  filter: grayscale(2);
+.appTitle {
+  height: 100px;
+  /* border: 1px solid pink; */
+  display: flex;
+  justify-content: center;
   
-
-
-}
-@keyframes bounce {
-  0% {
-    animation-timing-function: ease-in;opacity: 1;transform: translateY(-45px);
-  }
-  24% {
-    opacity: 1;
-  }
-  40% {
-    animation-timing-function: ease-in;transform: translateY(-24px);
-  }
-  65% {
-    animation-timing-function: ease-in;transform: translateY(-12px);
-  }
-  82% {
-    animation-timing-function: ease-in;transform: translateY(-6px);
-  }
-  93% {
-    animation-timing-function: ease-in;transform: translateY(-4px);
-  }
-  25%,55%,75%,87% {
-    animation-timing-function: ease-out;transform: translateY(0px);
-  }
-  100% {
-    animation-timing-function: ease-out;opacity: 1;transform: translateY(0px);
-  }
-  
+  color: black;
 }
 .apps {
-  animation: roll-in-top 0.8s ease-out;
-  border: 3px solid black;
-  -webkit-box-shadow: 1px 3px 11px 9px #000000, inset 0px 0px 50px 9px #000000,
-    inset 0px 0px 50px 9px #000000;
-  box-shadow: 1px 3px 11px 9px #000000, inset 0px 0px 50px 9px #000000,
-    inset 0px 0px 50px 9px #000000;
-  
+  border-radius: 50%;
+}
+
+.apps:hover {
+  animation: bounce 2s ease 1s infinite normal none;
+  animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.5, 0.05, .8, 0.5);
+  animation-iteration-count: infinite;
+}
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, -100px, 0);
+  } 
+
+}
+.apps {
+  /* animation: roll-in-top 0.8s ease-out; */
+  box-shadow: 0px 20px 0px -10px black, 0px -20px 0px -10px black, 20px 0px 0px -10px black, -20px 0px 0px -10px black, 0px 0px 0px 10px #99005D, 5px 5px 15px 5px rgba(0,0,0,0);
+ border: 1px solid #99005D;
+}
+
+.appBottom{
+  border-radius: 50%;
+}
+
+.appBottom:hover{
+  animation: bounce 2s ease 1s infinite normal none;
+  animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.5, 0.05, 0.8, 0.5);
+  animation-iteration-count: infinite;
+}
+
+/* @keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 100px, 0);
+  }
+} */
+.appBottom {
+ 
+  box-shadow: 0px 20px 0px -10px black, 0px -20px 0px -10px black, 20px 0px 0px -10px black, -20px 0px 0px -10px black, 0px 0px 0px 10px #99005D, 5px 5px 15px 5px rgba(0,0,0,0);
+ border: 1px solid #99005D;
+}
+
+.calcLink{
+  text-decoration: none;
+}
+.pacman{
+  text-decoration: none;
+}
+.notNetflix {
+  text-decoration: none;
+}
+.moodApp{
+  text-decoration: none;
 }

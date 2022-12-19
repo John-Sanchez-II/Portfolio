@@ -5,6 +5,7 @@ import notNetflix from "../../imgs/not-netflix.png";
 import meMyselfI from "../../imgs/Meself&I.png";
 
 export default function Portfolio() {
+
   return (
     <div className="page" id="portfolio">
       <h1 className="Port">Portfolio</h1>

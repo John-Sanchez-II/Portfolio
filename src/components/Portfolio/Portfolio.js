@@ -10,7 +10,7 @@ export default function Portfolio() {
     <div className="page" id="portfolio">
       <h1 className="Port">Portfolio</h1>
       {/* make links open in a new page */}
-      <div className="links">
+      <div className="links" >
         <a
           className="calcLink"
           href="https://john-sanchez-ii.github.io/Calculator-II/"
@@ -73,4 +73,5 @@ export default function Portfolio() {
       </div>
     </div>
   );
+
 }

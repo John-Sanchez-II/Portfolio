@@ -1,10 +1,17 @@
 .navbar {
   position: fixed;
-  z-index: 1030px;
+  margin-top: 0;
+  height: 90px;
+  width: 100vw;
+  z-index: 4;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
   /* vw is viewport width */
-  width: 100vw;
+  box-shadow: 0 5px 20px -15px #99005D;
+  /* border: 2px solid black; */
 }
 @media all and (max-width:600px){
   .navButtons{
@@ -13,8 +20,8 @@
 }
 
 .logo {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   /* float: left; */
   margin: 8px;
   border-radius: 50px;
@@ -22,8 +29,8 @@
 }
 
 .navButtons {
-  display: flex;
-  padding-top: 30px;
+  /* padding-top: 30px; */
+  padding-right: 25px;
 }
 
 .navButtons button {
@@ -31,17 +38,22 @@
   font-size: 20px;
   margin: 1px;
   text-transform: uppercase;
-  color: black;
-  text-shadow: 0px 0px 1px #99005D,
-  -2px -1px 1px #417571;
+  color: #99005D;
+  text-shadow: 1px 1px 1px black;
   border: none;
   background: transparent;
   padding-right: 25px;
   transition: all 1s;
   border-radius: 25px;
+  
+  
 }
 .navButtons button:hover {
-  -webkit-box-shadow: 5px 5px 15px 5px #24325a;
-  box-shadow: 5px 5px 15px 5px #24325a;
+  -webkit-box-shadow: 5px 5px 15px 5px #354230;
+  box-shadow: 5px 5px 10px 5px #354230 ;
 }
 
+.resume{
+  color: #99005D;
+  text-decoration: none;
+}

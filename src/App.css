@@ -1,6 +1,7 @@
 .container{
   /* border: 1px solid pink; */
   background: #417571;
+  letter-spacing: 1px;
 }
 .App{
   font-size:23px;

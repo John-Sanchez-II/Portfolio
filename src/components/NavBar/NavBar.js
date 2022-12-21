@@ -12,9 +12,10 @@ export default function NavBar() {
         <button onClick={() => scrollToElement("#about")}>About</button>
         <button onClick={() => scrollToElement("#portfolio")}>Portfolio</button>
         <button onClick={() => scrollToElement("#contact")}>Contact</button>
-        <button>
+        <button >
           <a
-          href="https://www.linkedin.com/in/juan-a-sanchez/"
+          className="resume"
+          href="https://1drv.ms/w/s!AnDKJx_QNRG04hLlg3Ep2WCJXHvg?e=l6CgM1"
           target="_blank"
           rel="noreferrer">
           Resume

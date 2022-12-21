@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: row;
   font-family: "Peralta", cursive;
-  text-shadow: #24325a 1px 1px 1px;
+  text-shadow: #FF70C5  1px 0px 1px;
   color: black;
   
 }
@@ -44,6 +44,7 @@
   display: flex;
   justify-content: center;
   color: black;
+  text-shadow: #99005D 1px 1px 2px ;
   
 }
 

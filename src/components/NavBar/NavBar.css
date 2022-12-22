@@ -11,7 +11,6 @@
   backdrop-filter: blur(10px);
   /* vw is viewport width */
   box-shadow: 0 5px 20px -15px #99005D;
-  /* border: 2px solid black; */
 }
 @media all and (max-width:600px){
   .navButtons{
@@ -45,8 +44,7 @@
   padding-right: 25px;
   transition: all 1s;
   border-radius: 25px;
-  
-  
+  cursor: pointer;
 }
 .navButtons button:hover {
   -webkit-box-shadow: 5px 5px 15px 5px #354230;

@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: row;
   font-family: 'Peralta', cursive;
-  text-shadow: #FF70C5  1px 0px 1px;
+  
 }
 
 .aboutMe:before,
@@ -36,7 +36,7 @@
  
 }
 
-#self {
+/* #self {
   display: flex;
   margin: 0 auto;
   width: 300px;
@@ -49,6 +49,34 @@
 #self:hover{
   /* -webkit-box-shadow: 2px -15px 22px 0px #99005D,
   6px 11px 43px 15px #99005D; */
-box-shadow: 2px -3px 5px 0px #99005D,
-  3px 5px 63px 10px #99005D;
+/* box-shadow: 2px -3px 5px 0px #99005D,
+  3px 5px 63px 10px #99005D; */
+/* }*/
+
+section {
+	width: 30%;
+	margin: 0 auto;
+	line-height: 0;
+	position: relative;
+}
+section img {
+	width: 100%;
+}
+section article {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background: pink;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 15px;
+	mix-blend-mode: lighten;
+  
+}
+section div {
+	background: black;
+	height: 22.1vw;
+}
+section div:nth-of-type(2) {
+	grid-column: 3 / 6;
 }

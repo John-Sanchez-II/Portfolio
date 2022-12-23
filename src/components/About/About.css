@@ -31,7 +31,7 @@
   max-width: 900px;
   margin: auto;
   padding-top: 40px;
-  text-shadow: 0px 0px 1px  black;
+  /* text-shadow: 1px 0px 0px  #417571; */
   text-align: justify;
  
 }
@@ -53,7 +53,7 @@ section article {
 	background: #417571;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 10px;
+	grid-gap: 13px;
 	mix-blend-mode:darken;
 }
 section div {

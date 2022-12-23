@@ -24,7 +24,7 @@
 .greeting {
     /* border: 2px solid black; */
   color: black;
-  text-shadow:  #80B5B0 2px -2px 2px;
+  text-shadow:  #FF70C5 2px -1px 2px;
   font-size: 55px;
   /* overflow: hidden;  */
   /* Ensures the content is not revealed until the animation */
@@ -49,12 +49,12 @@
   }
 }
 
-.hobby{
+.quote{
     display: flex;
     justify-content: center;
-    font-family: 'Fredoka One', cursive;
-    color: black;
-    text-shadow: 1px 1px 1px #80B5B0;
+    font-family: 'Cormorant Garamond', serif;
+    color: #80B5B0;
+    text-shadow: 1px 1px 1px black;
     /* 2px 2px 5px #24325a ; */
 }
 

@@ -11,8 +11,7 @@ export default function Contact() {
         
         <p className="farewellSpeech">
           I'm always looking for opportunities to expand upon my skills and am
-          currently seeking a full-time junior web developer position or
-          internship. I'd also love to hear from you if you have any questions,
+          currently seeking a full-time junior web developer position. I'd also love to hear from you if you have any questions,
           are looking to network, or would like to chat about any projects I can
           help with.
         </p>

@@ -29,6 +29,8 @@ export default function About() {
         bolster my capability as a software engineer and help me help others
         bring their ideas to life on the web efficiently and creatively.
       </p>
+      <h3>Programming Languages</h3>
+      <p>Front End: HTML, Javascript, CSS, React</p> 
     </div>
   );
 }

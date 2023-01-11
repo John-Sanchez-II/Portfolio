@@ -5,16 +5,10 @@ export default function About() {
   return (
     <div className="page" id="about">
       <h1 className="aboutMe"> About Me </h1>
-      <section>
+        <div className="image">
         <img alt="selfie" id="self" src={selfie} />
-        <article>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </article>
-      </section>
+        </div>
+        
       <p className="intro">
         Hi there! I'm Juan, and I am a full-stack software engineer. Previous
         limited experience I had with web design sparked an interest in web
